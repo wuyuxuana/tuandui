@@ -1,0 +1,171 @@
+
+
+.guide{
+    margin: 5px 0;
+    height: 28px;
+    line-height: 28px;
+    color: #CDCDCD;
+}
+.guide a{
+    color: #CDCDCD;
+}
+.guide a:hover{
+    color: #EEEEEE;
+}
+
+.searcher{
+    height: 28px;
+    width: 210px;
+    border-radius: 13px;
+    background-color: #bcbcbc;
+    margin: 5px 0;
+
+}
+.searcher p a:hover{
+    color: gray;
+}
+.searcher_01{
+    display: inline-block;
+    float: left;
+    height: 28px;
+    width: 150px;
+    margin: 0 5px;
+    color: #000;
+
+}
+.searcher_02{
+    display: inline-block;
+    float: left;
+    height: 28px;
+    width: 28px;
+    margin-left: 10px;
+    cursor: pointer;
+    background: url("../images/icons/nav_ss.png") center no-repeat ;
+}
+
+
+.topbar{
+    height: 38px;
+    background-color:#7D2C2C;
+}
+
+/*header*/
+.header{
+    height: 134px;
+    background-color: #EFEFEF;
+
+}
+.container{
+    height: 90px;
+}
+#logo{
+    margin-top: 18px;
+    float: left;
+}
+#logo span,img{
+    line-height: 57px;
+    float: left;
+    font-size: 22px;
+    color: #333333;
+    font-weight: bold;
+}
+.nav{
+    height: 44px;
+    background-color: #fff;
+    margin-bottom: 30px;
+}
+.nav_tags{
+    list-style: none ;
+    float: left;
+    line-height: 44px;
+    font-family: "MicrosoftYaHei","Microsoft YaHei","΢���ź�",STHeiti,SimSun,"����", SimHei, Arial;
+    position: relative;
+}
+.nav_tags>a{
+    color: #313131;
+    display: inline-block;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+    padding: 0 33px;
+}
+.nav_tags>a:hover{
+    color: #510000;
+
+}
+
+/*nav_tags_list*/
+.nav_tags ul{
+    position: absolute;
+    top: 44px;
+    left: 0px;
+    z-index: 2;
+    padding-bottom: 4px;
+    background-color: #ffffff;
+
+}
+.nav_tags li{
+    border-top: 1px solid #A5A5A5;
+    line-height: 36px;
+    width: 140px;
+}
+
+.nav_tags li a{
+    display: block;
+    text-indent: 30px;
+    color: #510000;
+    font-size: 15px;
+}
+.nav_tags li a:hover{
+    background-color: #EEEEEE;
+}
+
+
+
+
+
+
+/*footer#510000*/
+
+.footer{
+    height: 288px;
+    width: 100%;
+    background-color: #333333;
+    border-top: 5px solid #E1D6CB;
+}
+.footer a{
+    color: #979797;
+    background-color: #333333;
+}
+.footer li{
+    display: block;
+}
+.footer h3{
+    color: #FFFFFF;
+    background-color: #333333;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 16px;
+    padding-bottom: 15px;
+}
+.footer_pad{
+    padding: 30px 0 20px 0;
+    height: 170px;
+}
+.foot_box{
+    height: 200px;
+    display: block;
+    float: left;
+    width: 200px;
+    margin-right: 30px;
+}
+.foot_box address{
+    color: #979797;
+    background-color: #333333;
+    font-style: normal;
+}
+#copyright{
+    padding: 15px 0;
+    border-top: 1px solid #979797;
+    text-align: center;
+}

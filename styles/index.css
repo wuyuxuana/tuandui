@@ -1,0 +1,240 @@
+/*banner*/
+.banner{
+    height:349px;
+    /*background-color: #E1D6CB;*/
+    background: url("../images/indexBck.png") center repeat-x;
+    border-bottom: 1px solid #510000;
+    z-index: 1;
+    background-position-y: -232px;
+}
+.banner_nav{
+    position: relative;
+    z-index:1;
+}
+#featured{
+    border-top: solid 10px #bcbcbc;
+    border-right: solid 10px #bcbcbc;
+    border-left: solid 10px #bcbcbc;
+    width: 980px;
+    height: 330px;
+    overflow: hidden;
+    position: relative;
+    border-bottom: solid 10px #fff;
+}
+#featured ul{
+    position: absolute;
+    left: 0;
+    top: 0;
+
+}
+#featured ul li{
+    /*display: none;*/
+}
+.slide{
+    position: relative;
+    float: left;
+    left: 0;
+    top: 0;
+}
+.slide a{
+    line-height: 20px;
+    font-size: 15px;
+    color: #FFFFFF;
+    width: 300px;
+    padding-left: 5px;
+
+}
+.shadow{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    height: 60px;
+    line-height: 60px;
+    background: rgba(0,0,0,0.6);
+}
+.gallery img{
+    width: 980px;
+    height: 330px;
+}
+.fbg{
+    bottom: 20px;
+    right: 25px;
+    position: absolute;
+    height: 20px;
+    text-align: center;
+    z-index: 200;
+}
+.fbg div{
+    margin:4px auto 0;overflow:hidden;zoom:1;height:14px
+}
+.D1fBt{
+    overflow:hidden; zoom:1;  height:16px; z-index:10;
+}
+.D1fBt a{
+    position:relative; display:inline; width:12px; height:12px; border-radius:7px; margin:0 5px;color:#B0B0B0;font:12px/15px "\5B8B\4F53"; text-decoration:none; text-align:center; outline:0; float:left; background:#D9D9D9;
+}
+.D1fBt .current,.focus .D1fBt a:hover{background:#fc114a;}
+.D1fBt img{display:none}
+.D1fBt i{display:none; font-style:normal; }
+
+/*scroll
+
+.scroll{
+    height: 80px;
+    position: relative;
+    left: 30px;
+    top: 10px;
+
+}
+.scroll li{
+    float: left;
+    margin: 0 5px;
+}
+.scroll img{
+    height: 59px;
+    width: 84px;
+    opacity: 0.3;
+    cursor: pointer;
+}
+*/
+.prev01, .next01{
+    position:absolute;width:40px;height:74px; background: url("../images/icons/focus_btn.png")  no-repeat;
+}
+.prev01{top: 50%;margin-top: -37px; left: 0;background-position:0 -74px; cursor:pointer; }
+.next01{top: 50%;margin-top: -37px; right: 0;  background-position:-40px -74px;  cursor:pointer;}
+.prev01:hover{  background-position:0 0; }
+.next01:hover{  background-position:-40px 0;}
+
+#prev{
+    position: absolute;
+    top: 20px;
+    left: -25px;
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+}
+#next{
+    position: absolute;
+    top: 20px;
+    right: 38px;
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+}
+.intro{
+    width: 500px;
+
+}
+.intro_ph{
+
+}
+#intro_ph{
+    width: 125px;
+    height: 125px;
+    padding: 4px;
+    border: 1px solid #dddddd;
+    margin: 0 15px 15px 0;
+
+}
+.intro_mes{
+    width: 350px;
+    float: right;
+
+}
+.intro_mes h3{
+    border-bottom: 1px solid #fff;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.intro_mes p{
+    margin-top: 10px;
+}
+
+/*center*/
+.center{
+
+
+}
+.homepage{
+    height:480px;
+}
+.news_right ,.news_left{
+    width: 330px;
+    margin-right: 20px;
+
+    float: left;
+}
+.news_item{
+    margin: 15px 0 5px 0;
+    width: 100%;
+    height: 220px;
+}
+.block_title{
+    height: 26px;
+    font: bold 14px/26px "MicrosoftYaHei","Microsoft YaHei","Î¢ÈíÑÅºÚ",STHeiti,SimSun,"ËÎÌå", SimHei, Arial;
+    width: 100%;
+    background-color: #7D2C2C;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    text-indent: 7px;
+}
+.block_title p{
+    float: left;
+    color: #fff;
+}
+.block_title a{
+    float: right;
+    display: block;
+}
+
+.block_content li a{
+    overflow: hidden;
+    white-space: nowrap;
+    width: 220px;
+    text-overflow: ellipsis;
+}
+.block_content .fr{
+    color: #999999;
+}
+
+.index_right_column{
+    width: 270px;
+    height: 450px;
+    padding: 0 15px;
+    margin-top: 15px;
+}
+.link{
+    padding: 10px 15px;
+    background-color: #EEEEEE;
+    box-shadow: 0 0 10px #797979;
+}
+.link .first{
+    border-top: 1px solid #d6d6d6;
+}
+.link li{
+    padding: 10px 0;
+    border-bottom: 1px solid #d6d6d6;
+    height: 19px;
+}
+.link li a{
+    color: #000;
+
+}
+.notice{
+    width: 270px;
+    margin-top: 14px;
+}
+.notice .marquee{
+    width: 270px;
+    height: 230px;
+    background-color: #333333;
+}
+.homepage_mar{
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    background-color: #d6d6d6;
+
+}

@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html" charset="utf-8">
+    <title>新型光器件与光交换组</title>
+    <link rel="stylesheet" href="styles/public.css"/>
+    <link rel="stylesheet" href="styles/master.css"/>
+    <link rel="stylesheet" href="styles/layout.css"/>
+    <script src="scripts/jquery.js"></script>
+    <script src="scripts/public.js"></script>
+    <script type="text/javascript" src="scripts/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="scripts/koala.min.1.5.js"></script>
+    <script type="text/javascript" src="scripts/terminator2.2.min.js"></script>
+
+</head>
+<body>
+<div class="topbar">
+    <div class="comWidth">
+        <p class="fl guide">
+            <a href="http://www.uestc.edu.cn/" target="_blank">学校首页</a>
+            |
+            <a href="http://www.scie.uestc.edu.cn/" target="_blank">通信学院</a>
+            |
+            <a href="http://www.lib.uestc.edu.cn/" target="_blank">图书馆</a>
+            |
+            <a href="./admin" target="_blank">后台管理</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        </p>
+    </div>
+    <div class="comWidth">
+        <div class="searcher fr">
+            <form class="fr" action="">
+                <input class="searcher_01 " type="text"/>
+                <input class="searcher_02 " type="button"/>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="header">
+    <div class="comWidth">
+        <div class=" container">
+            <a href="./" id="logo" title="电子科技大学">
+                <img src="images/logos/logo1.png" alt="电子科大学"/><span>&nbsp;&nbsp;&nbsp;新型光器件与光交换组</span>
+            </a>
+        </div>
+        <div class="nav" id="nav">
+            <ul>
+                <li class="nav_tags"><a href="index.php">首页</a></li>
+                <li class="nav_tags">
+                    <a href="news.php">新闻公告</a>
+                    <ul class="hide">
+                        <li><a href="">综合新闻</a></li>
+                        <li><a href="">信息公告</a></li>
+                        <li><a href="">学生活动</a></li>
+                    </ul>
+                </li>
+                <li class="nav_tags">
+                    <a href="">师资队伍</a>
+                    <ul class="hide">
+                        <li><a href="">研究组简介</a></li>
+                        <li><a href="">研究人员</a></li>
+                    </ul>
+                </li>
+                <li class="nav_tags">
+                    <a href="">科学研究</a>
+                </li>
+                <li class="nav_tags">
+                    <a href="">科研成果</a>
+
+                </li>
+                <li class="nav_tags">
+                    <a href="">硕士招生</a>
+                    <ul class="hide">
+                        <li><a href="">综合新闻</a></li>
+                        <li><a href="">综合新闻</a></li>
+                        <li><a href="">综合新闻</a></li>
+                        <li><a href="">综合新闻</a></li>
+                    </ul>
+                </li>
+                <li class="nav_tags"><a href="">下载中心</a>
+                </li>
+                <li class="nav_tags"><a href="">联系我们</a></li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+<div class="banner">
+    <div class="comWidth">
+        <div class="left_banner fl">
+            <div id="featured" class="gallery">
+                <ul id="featured_nav">
+                    <li class="slide fl">
+                        <a target="_blank" href=""><img src="uploads/1.jpg" alt=""/></a>
+                        <span class="shadow"><a target="_blank" href="http://ln.qq.com/a/20140625/015503.htm">红三代叶明子太庙办盛典 白色羽毛装高贵动人</a></span>
+                    </li>
+                    <li class="slide fl">
+                        <img src="uploads/2.jpg" alt=""/>
+                    </li>
+                    <li class="slide">
+                        <img src="uploads/3.jpg" alt=""/>
+                    </li>
+                    <li class="slide">
+                        <img src="uploads/4.jpg" alt=""/>
+                    </li>
+                </ul>
+                <div class="fbg">
+                    <div class="D1fBt" id="D1fBt">
+                        <a href="javascript:void(0)" hidefocus="true" target="_self" class=""><i>1</i></a>
+                        <a href="javascript:void(0)" hidefocus="true" target="_self" class=""><i>2</i></a>
+                        <a href="javascript:void(0)" hidefocus="true" target="_self" class="current"><i>3</i></a>
+                        <a href="javascript:void(0)" hidefocus="true" target="_self" class=""><i>4</i></a>
+                    </div>
+                </div>
+                <span class="prev01"></span>
+                <span class="next01"></span>
+            </div>
+
+
+            <!--<div class="scroll">-->
+                <!--<ul>-->
+                    <!--<li><img src="uploads/1.jpg" alt=""/></li>-->
+                    <!--<li><img src="uploads/2.jpg" alt=""/></li>-->
+                    <!--<li><img src="uploads/3.jpg" alt=""/></li>-->
+                    <!--<li><img src="uploads/4.jpg" alt=""/></li>-->
+                <!--</ul>-->
+                <!--<img src="images/icons/prev.gif" id="prev" alt=""/>-->
+                <!--<img src="images/icons/next.gif" id="next" alt=""/>-->
+            <!--</div>-->
+        </div>
+        <div class="intro fr">
+            <div class="intro_ph">
+                <img src="images/intro_ph.jpg" id="intro_ph" alt=""/>
+                <div class="intro_mes">
+                    <h3>新型光器件与光交换</h3>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;新型光器件与光交换是电子科大学光纤通信研究团队主要研究内容之一，改研究团队已成为光纤传感与通信教育部重点实验的重要支撑力量。</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+<div class="center comWidth">
+    <div class="homepage">
+        <div class="index_left_column fl">
+            <div class="news_left">
+                <div class="news_item">
+                    <div class="block_title">
+                        <p>综合新闻</p><a href="">更多&nbsp;>></a>
+                    </div>
+                    <div class="block_content">
+                        <ul>
+                            <li><a class="fl" href="">>人才培养特区建设顺利 创新能力培养初现成效人才培养特区建设顺利 创新能力培养初现成效人才培养特区建设顺利 创新能力培养初现成效</a><span class="fr">16-12-30</span></li>
+                            <li><a class="fl" href="">人才培养特区建设顺利 创新能力培养初现成效人才培养特区建设顺利 创新能力培养初现成效人才培养特区建设顺利 创新能力培养初现成效</a><span class="fr">16-12-30</span></li>
+                            <li><a class="fl" href="">人才培养特区建设顺利 创新能力培养初现成效人才培养特区建设顺利 创新能力培养初现成效人才培养特区建设顺利 创新能力培养初现成效</a><span class="fr">16-12-30</span></li>
+                            <li><a class="fl" href="">人才培养特区建设顺利 创新能力培养初现成效人才培养特区建设顺利 创新能力培养初现成效人才培养特区建设顺利 创新能力培养初现成效</a><span class="fr">16-12-30</span></li>
+                            <li><a class="fl" href="">人才培养特区建设顺利 创新能力培养初现成效人才培养特区建设顺利 创新能力培养初现成效人才培养特区建设顺利 创新能力培养初现成效</a><span class="fr">16-12-30</span></li>
+                            <li><a class="fl" href="">人才培养特区建设顺利 创新能力培养初现成效人才培养特区建设顺利 创新能力培养初现成效人才培养特区建设顺利 创新能力培养初现成效</a><span class="fr">16-12-30</span></li>
+                            <li><a class="fl" href="">人才培养特区建设顺利 创新能力培养初现成效人才培养特区建设顺利 创新能力培养初现成效人才培养特区建设顺利 创新能力培养初现成效</a><span class="fr">16-12-30</span></li>
+                            <li><a class="fl" href="">人才培养特区建设顺利 创新能力培养初现成效人才培养特区建设顺利 创新能力培养初现成效人才培养特区建设顺利 创新能力培养初现成效</a><span class="fr">16-12-30</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="news_item">
+                    <div class="block_title">
+                        <p>综合新闻</p><a href="">更多&nbsp;>></a>
+                    </div>
+                    <div class="block_content">
+                        <ul>
+                            <li><a class="fl" href="">人才培养特区建设顺利 创新能力培养初现成效人才培养特区建设顺利 创新能力培养初现成效人才培养特区建设顺利 创新能力培养初现成效</a><span class="fr">16-12-30</span></li>
+                            <li><a class="fl" href="">人才培养特区建设顺利 创新能力培养初现成效人才培养特区建设顺利 创新能力培养初现成效人才培养特区建设顺利 创新能力培养初现成效</a><span class="fr">16-12-30</span></li>
+                            <li><a class="fl" href="">人才培养特区建设顺利 创新能力培养初现成效人才培养特区建设顺利 创新能力培养初现成效人才培养特区建设顺利 创新能力培养初现成效</a><span class="fr">16-12-30</span></li>
+                            <li><a class="fl" href="">人才培养特区建设顺利 创新能力培养初现成效人才培养特区建设顺利 创新能力培养初现成效人才培养特区建设顺利 创新能力培养初现成效</a><span class="fr">16-12-30</span></li>
+                            <li><a class="fl" href="">人才培养特区建设顺利 创新能力培养初现成效人才培养特区建设顺利 创新能力培养初现成效人才培养特区建设顺利 创新能力培养初现成效</a><span class="fr">16-12-30</span></li>
+                            <li><a class="fl" href="">人才培养特区建设顺利 创新能力培养初现成效人才培养特区建设顺利 创新能力培养初现成效人才培养特区建设顺利 创新能力培养初现成效</a><span class="fr">16-12-30</span></li>
+                            <li><a class="fl" href="">人才培养特区建设顺利 创新能力培养初现成效人才培养特区建设顺利 创新能力培养初现成效人才培养特区建设顺利 创新能力培养初现成效</a><span class="fr">16-12-30</span></li>
+                            <li><a class="fl" href="">人才培养特区建设顺利 创新能力培养初现成效人才培养特区建设顺利 创新能力培养初现成效人才培养特区建设顺利 创新能力培养初现成效</a><span class="fr">16-12-30</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="news_right">
+                <div class="news_item">
+                    <div class="block_title">
+                        <p>信息公告</p><a href="">更多&nbsp;>></a>
+                    </div>
+                    <div class="block_content">
+                        <ul>
+                            <li><a class="fl" href="">人才培养特区建设顺利 创新能力培养初现成效人才培养特区建设顺利 创新能力培养初现成效人才培养特区建设顺利 创新能力培养初现成效</a><span class="fr">16-12-30</span></li>
+                            <li><a class="fl" href="">人才培养特区建设顺利 创新能力培养初现成效人才培养特区建设顺利 创新能力培养初现成效人才培养特区建设顺利 创新能力培养初现成效</a><span class="fr">16-12-30</span></li>
+                            <li><a class="fl" href="">人才培养特区建设顺利 创新能力培养初现成效人才培养特区建设顺利 创新能力培养初现成效人才培养特区建设顺利 创新能力培养初现成效</a><span class="fr">16-12-30</span></li>
+                            <li><a class="fl" href="">人才培养特区建设顺利 创新能力培养初现成效人才培养特区建设顺利 创新能力培养初现成效人才培养特区建设顺利 创新能力培养初现成效</a><span class="fr">16-12-30</span></li>
+                            <li><a class="fl" href="">人才培养特区建设顺利 创新能力培养初现成效人才培养特区建设顺利 创新能力培养初现成效人才培养特区建设顺利 创新能力培养初现成效</a><span class="fr">16-12-30</span></li>
+                            <li><a class="fl" href="">人才培养特区建设顺利 创新能力培养初现成效人才培养特区建设顺利 创新能力培养初现成效人才培养特区建设顺利 创新能力培养初现成效</a><span class="fr">16-12-30</span></li>
+                            <li><a class="fl" href="">人才培养特区建设顺利 创新能力培养初现成效人才培养特区建设顺利 创新能力培养初现成效人才培养特区建设顺利 创新能力培养初现成效</a><span class="fr">16-12-30</span></li>
+                            <li><a class="fl" href="">人才培养特区建设顺利 创新能力培养初现成效人才培养特区建设顺利 创新能力培养初现成效人才培养特区建设顺利 创新能力培养初现成效</a><span class="fr">16-12-30</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="news_item">
+                    <div class="block_title">
+                        <p>综合新闻</p><a href="">更多&nbsp;>></a>
+                    </div>
+                    <div class="block_content">
+                        <ul>
+                            <li><a class="fl" href="">人才培养特区建设顺利 创新能力培养初现成效人才培养特区建设顺利 创新能力培养初现成效人才培养特区建设顺利 创新能力培养初现成效</a><span class="fr">16-12-30</span></li>
+                            <li><a class="fl" href="">人才培养特区建设顺利 创新能力培养初现成效人才培养特区建设顺利 创新能力培养初现成效人才培养特区建设顺利 创新能力培养初现成效</a><span class="fr">16-12-30</span></li>
+                            <li><a class="fl" href="">人才培养特区建设顺利 创新能力培养初现成效人才培养特区建设顺利 创新能力培养初现成效人才培养特区建设顺利 创新能力培养初现成效</a><span class="fr">16-12-30</span></li>
+                            <li><a class="fl" href="">人才培养特区建设顺利 创新能力培养初现成效人才培养特区建设顺利 创新能力培养初现成效人才培养特区建设顺利 创新能力培养初现成效</a><span class="fr">16-12-30</span></li>
+                            <li><a class="fl" href="">人才培养特区建设顺利 创新能力培养初现成效人才培养特区建设顺利 创新能力培养初现成效人才培养特区建设顺利 创新能力培养初现成效</a><span class="fr">16-12-30</span></li>
+                            <li><a class="fl" href="">人才培养特区建设顺利 创新能力培养初现成效人才培养特区建设顺利 创新能力培养初现成效人才培养特区建设顺利 创新能力培养初现成效</a><span class="fr">16-12-30</span></li>
+                            <li><a class="fl" href="">人才培养特区建设顺利 创新能力培养初现成效人才培养特区建设顺利 创新能力培养初现成效人才培养特区建设顺利 创新能力培养初现成效</a><span class="fr">16-12-30</span></li>
+                            <li><a class="fl" href="">人才培养特区建设顺利 创新能力培养初现成效人才培养特区建设顺利 创新能力培养初现成效人才培养特区建设顺利 创新能力培养初现成效</a><span class="fr">16-12-30</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="index_right_column fr">
+            <ul class="link">
+                <li class="first">
+                    <a class="fl" href="#">新闻中心</a>
+                    <span class="fr">></span>
+                </li>
+                <li>
+                    <a class="fl" href="#">新闻中心</a>
+                    <span class="fr">></span>
+                </li>
+                <li>
+                    <a class="fl" href="#">新闻中心</a>
+                    <span class="fr">></span>
+                </li>
+                <li>
+                    <a class="fl" href="#">新闻中心</a>
+                    <span class="fr">></span>
+                </li>
+                <li>
+                    <a class="fl" href="#">新闻中心</a>
+                    <span class="fr">></span>
+                </li>
+            </ul>
+            <div class="notice">
+                <a href="">
+                    <marquee direction="down" height="200" behavior="alternate" style="border:dotted;position: relative" scrolldelay="1" scrollamount="2" >
+                        <marquee behavior="alternate" scrolldelay="1" scrollamount="2" >
+                            电子科大学
+                        </marquee>
+                    </marquee>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="homepage_mar">
+        <marquee behavior="alternative" direction="left" scrolldelay="1" scrollamount="1" onmouseover="this.stop()" onmouseout="this.start()" >今天天气很好</marquee>
+    </div>
+</div>
+<div class="footer">
+    <div class="comWidth">
+        <div class="footer_pad">
+            <div class="foot_box">
+                <div class="fl ">
+                    <h3>友情链接</h3>
+                    <ul>
+                        <li><a href="">>>&nbsp;&nbsp;科大首页</a></li>
+                        <li><a href="">>>&nbsp;&nbsp;通信学院</a></li>
+                        <li><a href="">>>&nbsp;&nbsp;图书馆</a></li>
+                        <li><a href="">>>&nbsp;&nbsp;科大首页</a></li>
+                        <li><a href="">>>&nbsp;&nbsp;科大首页</a></li>
+                        <li><a href="">>>&nbsp;&nbsp;科大首页</a></li>
+                    </ul>
+                </div>
+                <div class="fl"></div>
+            </div>
+            <div class="foot_box">
+                <div class="fl ">
+                    <h3>联系我们</h3>
+                    <address>
+                        四川省成都市高新区（西区）西源大道2006号
+                        <br/>
+                        电子科技大学清水河校区科研楼B区 邮编：611731
+                        <br/>
+                        <br/>
+                        电话：13800000000
+                        <br/>
+                        Email:88888@qq.com
+                    </address>
+
+                </div>
+                <div class="fl"></div>
+            </div>
+        </div>
+        <div id="copyright">
+            <p>2016 电子科技大学光纤传感与通信教育部重点实验室&nbsp;&nbsp;</p>
+            <p>技术支持:九点的耳朵</p>
+        </div>
+    </div>
+</div>
+<script>
+    function set()
+    {
+        var menu=document.getElementById("nav").getElementsByTagName("li");
+        for(var i=0;i<menu.length;i++)
+        {
+            if(menu[i].className=="nav_tags")
+            {
+                menu[i].onmouseover=function()
+                {
+                    this.getElementsByTagName("ul")[0].style.display="block";
+                }
+                menu[i].onmouseout=function()
+                {
+                    this.getElementsByTagName("ul")[0].style.display="none";
+                }
+            }
+        }
+    }
+    window.onload=set;
+</script>
+<script type="text/javascript">
+    Qfast.add('widgets', { path: "scripts/terminator2.2.min.js", type: "js", requires: ['fx'] });
+    Qfast(false, 'widgets', function () {
+        K.tabs({
+            id: 'featured',   //焦点图包裹id
+            conId: "featured_nav",  //** 大图域包裹id
+            tabId:"D1fBt",
+            tabTn:"a",
+            conCn: '.slide', //** 大图域配置class
+            auto: 1,   //自动播放 1或0
+            effect: 'fade',   //效果配置
+            eType: 'click', //** 鼠标事件
+            pageBt:true,//是否有按钮切换页码
+            bns: ['.prev01', '.next01'],//** 前后按钮配置class
+            interval: 3000  //** 停顿时间
+        })
+    })
+</script>
+</body>
+</html>
